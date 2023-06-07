@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    transition: .4s;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#header{
+    backdrop-filter: blur(8px);
+    padding:  23px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0px 12px 13px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 12px 13px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 12px 13px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color:#173A56;
+    padding-left: 16px;
+
+}
+.header-nav a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    padding: 0 10px;
+    transition: .4s;
+}
+
+.header-nav a:hover {
+    color: #02897A;
+    text-decoration-line:underline ;
+}
+.header-btn-one {
+    font-weight: 600;
+    font-size: 16px;
+    color: #173A56;
+    background: transparent;
+    border: 2px solid #BCD0E5;
+    padding: 12px 25px;
+    border-radius: 4px;
+    
+}
+.header-btn-one:hover{
+    background: #02897A;
+    color: white;
+    border: 2px solid #02897A;
+}
+.header-btn-two {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 12px 25px;
+    border: 2px solid #02897A;
+    margin: 0 24px;
+   
+}
+.header-btn-two:hover {
+   background: transparent;
+   color: #173A56;
+   border: 2px solid #BCD0E5;
+}
+.header-btn-three ion-icon {
+    color: #02897A;
+    font-size: 25px;
+    rotate: 180deg;
+}
+.header-btn-three {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+#work {
+    padding: 80px 0;
+    background: #E5E5E5;
+}
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-text h1{
+    width: 400px;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 40px;
+    color: #22343D;
+}
+.work-text p {
+    width: 458px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    padding: 18px 0 45px 0;
+}
+.work-btn button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 13px 27px;
+    border: 2px solid #BCD0E5;
+    margin-right: 30px;
+}
+.work-btn button:hover {
+    background: transparent;
+   color: #173A56;
+   border: 2px solid #BCD0E5;
+}
+.work-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #02897A;
+    display: flex;
+    align-items: center;
+}
+.work-btn a ion-icon {
+    font-size: 20px;
+    padding-right: 8px;
+}
+.work-btn {
+    display: flex;
+    align-items: center;
+}
+
+#product {
+    background: url("../img/Bg.png") no-repeat bottom/cover;
+    min-height: 80vh;
+}
+.product h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+
+}
+.product-block h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343D;
+    padding: 30px 0 13px 0;
+}
+.product-block p {
+    width: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    
+}
+.product-block div {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-one {
+    background: #02897A;
+}
+.product-two {
+    background: #4D8DFF;
+}
+.product-three {
+    background: #740A76;
+}
+.product-four {
+    background: #F03E3D;
+}
+.product-general {
+    display: flex;
+    justify-content: space-between;
+    padding: 66px 0 60px 0;
+}
+.product-btn button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 13px 28px;
+    background: #02897A;
+    border-radius: 4px;
+}
+.product-btn {
+    display: flex;
+    justify-content: center;
+}
